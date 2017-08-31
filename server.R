@@ -9,7 +9,7 @@ shinyServer(function(input, output) {
            , "State"              = df %>% filter(State        == input$state)
            , "Imperial/Metric"    = df %>% filter(Type         == input$type)
            , "Maximum Distance"   = df %>% filter(Max_Distance == input$distance)
-           , "Electronic System"  = df %>% filter(ET_System    == input$etargets))
+           , "Electronic Targets" = df %>% filter(ET_System    == input$etargets))
       
   })
   
@@ -18,8 +18,8 @@ shinyServer(function(input, output) {
   output$map <- renderLeaflet({
     
     leaflet() %>% 
-    addTiles() %>% 
-    addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, popup = df.sbst()$Range)
+      addTiles() %>% 
+      addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, popup = df.sbst()$Range)
     
     # TODO:popup array & formatting
     
