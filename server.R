@@ -4,12 +4,13 @@ shinyServer(function(input, output) {
   
   df.sbst <- reactive({
     
-    if (input$state == "ALL"){
-      df
-    } else {
-      df %>% filter(State == input$state)
-    }
-    
+    switch(input$filter
+           , "All Ranges"         = df
+           , "State"              = df %>% filter(State        == input$state)
+           , "Imperial/Metric"    = df %>% filter(Type         == input$type)
+           , "Maximum Distance"   = df %>% filter(Max_Distance == input$distance)
+           , "Electronic System"  = df %>% filter(ET_System    == input$etargets))
+      
   })
   
   # MAP -------------------------------------------------------------------------------------------
@@ -20,6 +21,10 @@ shinyServer(function(input, output) {
     addTiles() %>% 
     addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, popup = df.sbst()$Range)
     
+    # TODO:popup array & formatting
+    
   })
+  
+  # TODO:renderTable?
   
 }) 

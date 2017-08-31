@@ -1,70 +1,70 @@
 Range,Lat,Long,State,Type,Max_Distance,Num_Targets,Electronic,ET_System,Clubs
-Bathurst,-33.445541,149.544611,NSW,Imperial,900y,6,No,N/A,Bathurst
+Bathurst,-33.445541,149.544611,NSW,Imperial,900y,6,No,None,Bathurst
 Cessnock,-32.864497,151.350778,NSW,Imperial,900y,7,Yes,Kongsberg,"BHP, Cessnock, West Wallsend"
-Gosford,-33.455674,151.271125,NSW,Imperial/Metric,600m,7,Yes,HEXTA,Gosford District
-Goulburn,-34.770336,149.745637,NSW,Imperial,900y,,Yes,OzScore,Goulburn
-Hornsby,-33.68712,151.084996,NSW,Metric,800m,14,Yes,HEXTA,"Hornsby, Hornsby RSL, Manly, Roseville"
+Gosford,-33.455674,151.271125,NSW,Imperial/Metric,600m,7,Yes,Hexta,Gosford District
+Goulburn,-34.770336,149.745637,NSW,Imperial,900y,NA,Yes,OzScore,Goulburn
+Hornsby,-33.68712,151.084996,NSW,Metric,800m,14,Yes,Hexta,"Hornsby, Hornsby RSL, Manly, Roseville"
 Katoomba,-33.709724,150.342206,NSW,Imperial/Metric,600m,4,Yes,Silver Mountain,Katoomba
 Malabar,-33.958751,151.260098,NSW,Metric,800m,30,Yes,Mixed,"Concord, Holsworthy, Port Jackson, Mosman Neutral Bay, Sydney, Yorkshire"
-Spring Ridge,-31.417,150.262947,NSW,Imperial,900y,6,No,N/A,Spring Ridge
-Belmont,-27.513646,153.131253,QLD,Imperial,1000y,50,Yes,HEXTA,"Brisbane, Brisbane Mariners, Central, Gold Coast, Pacific, Natives, University of Qld"
-Beaudesert,-27.999842,153.072081,QLD,Imperial,700y,,Yes,OzScore,Beaudesert
-Ipswich,-27.745645,152.847601,QLD,,,8,,,Ipswich & District
-Mackay,-21.182147,148.99228,QLD,Imperial/Metric,800m,,,,Mackay
-North Arm,-26.525591,152.974641,QLD,Imperial,700y,,Yes,Kongsberg,North Arm
-Raglan,-23.722441,150.810624,QLD,Metric,1100m,,,,
-Wondai,-26.334474,151.889558,QLD,Imperial,1000y,,,,Wondai
-Bendigo,-36.749823,144.33791,VIC,Imperial,1000y,30,No,N/A,"Bendigo, Central Victoria, Marong, South Bendigo, Victorian Police"
-Lithgow,-33.500826000000004,150.145599,NSW,Imperial,900y,8,No,N/A,Lithgow
+Spring Ridge,-31.417,150.262947,NSW,Imperial,900y,6,No,None,Spring Ridge
+Belmont,-27.513646,153.131253,QLD,Imperial,1000y,50,Yes,Hexta,"Brisbane, Brisbane Mariners, Central, Gold Coast, Pacific, Natives, University of Qld"
+Beaudesert,-27.999842,153.072081,QLD,Imperial,700y,NA,Yes,OzScore,Beaudesert
+Ipswich,-27.745645,152.847601,QLD,NA,NA,8,NA,NA,Ipswich & District
+Mackay,-21.182147,148.99228,QLD,Imperial/Metric,800m,NA,NA,NA,Mackay
+North Arm,-26.525591,152.974641,QLD,Imperial,700y,NA,Yes,Kongsberg,North Arm
+Raglan,-23.722441,150.810624,QLD,Metric,1100m,NA,NA,NA,NA
+Wondai,-26.334474,151.889558,QLD,Imperial,1000y,NA,NA,NA,Wondai
+Bendigo,-36.749823,144.33791,VIC,Imperial,1000y,30,No,None,"Bendigo, Central Victoria, Marong, South Bendigo, Victorian Police"
+Lithgow,-33.500826000000004,150.145599,NSW,Imperial,900y,8,No,None,Lithgow
 Lyndhurst,-33.681472,149.048683,NSW,Imperial,700y,5,Yes,Kongsberg,Lyndhurst
 Canberra,-35.219593,149.200678,ACT,Metric,900m,20,Yes,Kongsberg,"Bungendore, Canberra"
-Townsville,-19.359482,146.496696,QLD,Metric,900m,,,,Townsville Marksmen
-Wingham,-31.847171,152.36806,NSW,Imperial/Metric,1000y,12,Yes,HEXTA,Wingham
-Campbell Town,-41.944709,147.484742,TAS,Imperial,1200y,,No,N/A,Campbell Town
-Sandford,-42.943906,147.484199,TAS,,,,,,Sandford
-Smithton,-40.852343,145.142564,TAS,,,,,,Smithton
-Coomunga,-34.673222,135.731575,SA,Imperial,900y,,,,Port Lincoln
-Kapunda,-34.356511,138.92648,SA,Imperial,1000y,,,,Kapunda
-Lower Light,-34.551299,138.377132,SA,Metric,900m,,,,"Cyclists Torrens Valley, Phoenix"
-Monarto,-35.146918,139.155514,SA,Metric,1000m,,,,Murray Bridge
-Mount Barker,-35.067965,138.839298,SA,Imperial,800y,,,,Mount Barker
-Mount Gambier,-37.951036,140.800094,SA,Imperial,800y,4,,,Mount Gambier
-Orroroo,-32.741864,138.61315,SA,Imperial,1000y,,,,Yanyarrie Orroroo
-Port Pirie,-33.175304,138.040922,SA,,,,,,Port Pirie
-Waikerie,-34.2131667,139.959,SA,Imperial,900y,,,,Waikerie
-Wallaroo,-33.939819,137.602341,SA,,,,,,Wallaroo
-Whyalla,-33.049234,137.549358,SA,Imperial,900y,,,,Whyalla
-Albany,-35.060454,117.838481,WA,Metric,800m,20,,,Albany
-Chapman Valley,-28.508832,114.818389,WA,,,3,,,Chapman Valley
-Chidlow,-31.891249,116.263194,WA,,,,,,
-Coolilup,-33.594234,115.521203,WA,Metric,900m,,,,Busselton
-Geraldton Greenough,-28.959219,114.732446,WA,Imperial/Metric,900y,10,,,Geraldton Greenough
-Meekatharra,-26.57619,118.488107,WA,Imperial,900y,,,,Meekatharra
-Wurgabup,-33.568009000000004,117.915123,WA,,,,,,Wurgabup
-Yarloop,-32.956219,115.921104,WA,Metric,,10,,,"Mandurah, Yarloop"
-Darwin,-12.396858,130.94377,NT,Metric,1000m,30,,,Darwin
-Alice Springs,-23.776589,133.82236,NT,Metric,1000m,,,,Central Australia
-Glenrowan,-36.47266,146.223441,VIC,,,,,,Wangaratta
-Horsham,-36.738831,142.145391,VIC,,,,Yes,HEXTA,Horsham
-Dimboola,-36.468902,142.023421,VIC,,,,,,Dimboola
-Kaniva,-36.392961,141.248512,VIC,,,,,,"Kaniva, Natimuk"
-Stawell,-37.080025,142.804456,VIC,,,,,,Stawell
-Warracknabeal,-36.228541,142.411306,VIC,,,,,,Warracknabeal
-St Arnaud,-36.64554,143.257655,VIC,,,,,,St Arnaud
-Nagambie,-36.798395,145.062803,VIC,,,,,,Nagambie
-Karramomus,-36.491389,145.505416,VIC,,,,,,Karramomus
-Tallangatta,-36.234508,147.142489,VIC,,,,,,Tallangatta
-Violet Town,-36.656269,145.734005,VIC,,,,,,ECDRA
-Rosedale,-38.17729,146.818062,VIC,Imperial,1000y,6,No,N/A,"Rosedale, Warragul/Drouin"
-Lang Lang,-38.270122,145.577144,VIC,Imperial,600y,6,No,N/A,Lang Lang
+Townsville,-19.359482,146.496696,QLD,Metric,900m,NA,NA,NA,Townsville Marksmen
+Wingham,-31.847171,152.36806,NSW,Imperial/Metric,1000y,12,Yes,Hexta,Wingham
+Campbell Town,-41.944709,147.484742,TAS,Imperial,1200y,NA,No,None,Campbell Town
+Sandford,-42.943906,147.484199,TAS,NA,NA,NA,NA,NA,Sandford
+Smithton,-40.852343,145.142564,TAS,NA,NA,NA,NA,NA,Smithton
+Coomunga,-34.673222,135.731575,SA,Imperial,900y,NA,NA,NA,Port Lincoln
+Kapunda,-34.356511,138.92648,SA,Imperial,1000y,NA,NA,NA,Kapunda
+Lower Light,-34.551299,138.377132,SA,Metric,900m,NA,NA,NA,"Cyclists Torrens Valley, Phoenix"
+Monarto,-35.146918,139.155514,SA,Metric,1000m,NA,NA,NA,Murray Bridge
+Mount Barker,-35.067965,138.839298,SA,Imperial,800y,NA,NA,NA,Mount Barker
+Mount Gambier,-37.951036,140.800094,SA,Imperial,800y,4,NA,NA,Mount Gambier
+Orroroo,-32.741864,138.61315,SA,Imperial,1000y,NA,NA,NA,Yanyarrie Orroroo
+Port Pirie,-33.175304,138.040922,SA,NA,NA,NA,NA,NA,Port Pirie
+Waikerie,-34.2131667,139.959,SA,Imperial,900y,NA,NA,NA,Waikerie
+Wallaroo,-33.939819,137.602341,SA,NA,NA,NA,NA,NA,Wallaroo
+Whyalla,-33.049234,137.549358,SA,Imperial,900y,NA,NA,NA,Whyalla
+Albany,-35.060454,117.838481,WA,Metric,800m,20,NA,NA,Albany
+Chapman Valley,-28.508832,114.818389,WA,NA,NA,3,NA,NA,Chapman Valley
+Chidlow,-31.891249,116.263194,WA,NA,NA,NA,NA,NA,NA
+Coolilup,-33.594234,115.521203,WA,Metric,900m,NA,NA,NA,Busselton
+Geraldton Greenough,-28.959219,114.732446,WA,Imperial/Metric,900y,10,NA,NA,Geraldton Greenough
+Meekatharra,-26.57619,118.488107,WA,Imperial,900y,NA,NA,NA,Meekatharra
+Wurgabup,-33.568009000000004,117.915123,WA,NA,NA,NA,NA,NA,Wurgabup
+Yarloop,-32.956219,115.921104,WA,Metric,NA,10,NA,NA,"Mandurah, Yarloop"
+Darwin,-12.396858,130.94377,NT,Metric,1000m,30,NA,NA,Darwin
+Alice Springs,-23.776589,133.82236,NT,Metric,1000m,NA,NA,NA,Central Australia
+Glenrowan,-36.47266,146.223441,VIC,NA,NA,NA,NA,NA,Wangaratta
+Horsham,-36.738831,142.145391,VIC,NA,NA,NA,Yes,Hexta,Horsham
+Dimboola,-36.468902,142.023421,VIC,NA,NA,NA,NA,NA,Dimboola
+Kaniva,-36.392961,141.248512,VIC,NA,NA,NA,NA,NA,"Kaniva, Natimuk"
+Stawell,-37.080025,142.804456,VIC,NA,NA,NA,NA,NA,Stawell
+Warracknabeal,-36.228541,142.411306,VIC,NA,NA,NA,NA,NA,Warracknabeal
+St Arnaud,-36.64554,143.257655,VIC,NA,NA,NA,NA,NA,St Arnaud
+Nagambie,-36.798395,145.062803,VIC,NA,NA,NA,NA,NA,Nagambie
+Karramomus,-36.491389,145.505416,VIC,NA,NA,NA,NA,NA,Karramomus
+Tallangatta,-36.234508,147.142489,VIC,NA,NA,NA,NA,NA,Tallangatta
+Violet Town,-36.656269,145.734005,VIC,NA,NA,NA,NA,NA,ECDRA
+Rosedale,-38.17729,146.818062,VIC,Imperial,1000y,6,No,None,"Rosedale, Warragul/Drouin"
+Lang Lang,-38.270122,145.577144,VIC,Imperial,600y,6,No,None,Lang Lang
 Moe,-38.194688,146.223698,VIC,Imperial,900y,7,Yes,Silver Mountain,Moe City
-Yarram,-38.527924,146.724257,VIC,,,,,,Yarram
-Bacchus Marsh,-37.686605,144.372153,VIC,,,,,,"Bacchus Marsh, Ballarat East, Vic Rail"
-Colac,-38.329656,143.560517,VIC,,,,,,Colac
+Yarram,-38.527924,146.724257,VIC,NA,NA,NA,NA,NA,Yarram
+Bacchus Marsh,-37.686605,144.372153,VIC,NA,NA,NA,NA,NA,"Bacchus Marsh, Ballarat East, Vic Rail"
+Colac,-38.329656,143.560517,VIC,NA,NA,NA,NA,NA,Colac
 Geelong,-37.993998,144.328079,VIC,Metric,900m,6,Yes,Kongsberg,Geelong
-Mackereth,-37.844139,144.55817,VIC,Imperial,800y,6,No,N/A,"Werribee, Victorian Police"
-Port Campbell,-38.620307,142.973049,VIC,,,,,,Port Campbell
-Warrnambool,-38.433287,142.589568,VIC,Imperial,1000y,20,No,N/A,Warrnambool
-Dunkeld,-37.612158,142.32949,VIC,,,,,,Dunkeld/Willaura
-Hamilton,-37.761115,142.031614,VIC,Imperial,900y,2,Yes,HEXTA,Hamilton
-Grantville,-38.429892,145.512167,VIC,Imperial,600y,5,No,N/A,"Fitzroy/Caulfield, MCC"
+Mackereth,-37.844139,144.55817,VIC,Imperial,800y,6,No,None,"Werribee, Victorian Police"
+Port Campbell,-38.620307,142.973049,VIC,NA,NA,NA,NA,NA,Port Campbell
+Warrnambool,-38.433287,142.589568,VIC,Imperial,1000y,20,No,None,Warrnambool
+Dunkeld,-37.612158,142.32949,VIC,NA,NA,NA,NA,NA,Dunkeld/Willaura
+Hamilton,-37.761115,142.031614,VIC,Imperial,900y,2,Yes,Hexta,Hamilton
+Grantville,-38.429892,145.512167,VIC,Imperial,600y,5,No,None,"Fitzroy/Caulfield, MCC"
