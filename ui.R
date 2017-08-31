@@ -14,17 +14,21 @@ shinyUI(
     
     sidebarLayout(
 
-      sidebarPanel(width = 4,
+      sidebarPanel(width = 3,
                    
         selectInput(inputId   = "state"
                     , label   = "Filter by State"
-                    , choices = c("All", levels(factor(df$State)))),
+                    , choices = c("ALL", levels(factor(df$State)))),
+        
+        p(paste("There are currently", nrow(df), "NRAA ranges mapped")),
                    
-       p(paste("Data is current as at", format(Sys.Date(), "%d.%m.%Y")))
+        p(paste("This application was last updated on", format(Sys.Date(), "%d.%m.%Y")))
       
       ),
       
       mainPanel( 
+        
+        leafletOutput(outputId = "map")
            
       )
       
