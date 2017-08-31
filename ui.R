@@ -37,8 +37,9 @@ shinyUI(
         conditionalPanel(condition = "input.filter == 'Maximum Distance'",
           selectInput(inputId   = "distance" 
                       , label   = "Choose maximum distance:"
-                      , choices = levels(factor(df$Max_Distance)))), 
-          
+                      , choices = c("600y", "600m", "700y", "800y", "800m", "900y", "900m", "1000y"
+                                    , "1000m", "1100m", "1200y"))),
+              
         conditionalPanel(condition = "input.filter == 'Electronic Targets'",
           selectInput(inputId   = "etargets" 
                       , label   = "Choose electronic targets:"
@@ -54,7 +55,7 @@ shinyUI(
         
         leafletOutput(outputId = "map"
                       , width  = "100%"
-                      , height = 500)
+                      , height = 310)
            
       )
       
