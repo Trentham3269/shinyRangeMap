@@ -1,1 +1,2 @@
 # shinyRangeMap
+[National Rifle Association of Australia (NRAA)](http://www.nraa.com.au/) rifle range locations and general information. Built with [R](https://www.r-project.org/) and [Shiny](https://shiny.rstudio.com/).
