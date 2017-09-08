@@ -55,7 +55,7 @@ shinyUI(
         
         leafletOutput(outputId = "map"
                       , width  = "100%"
-                      , height = 310)
+                      , height = 500)
            
       )
       

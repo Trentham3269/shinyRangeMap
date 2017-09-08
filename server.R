@@ -19,12 +19,14 @@ shinyServer(function(input, output) {
     
     leaflet() %>% 
       addTiles() %>% 
-      addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, popup = df.sbst()$Range)
-    
-    # TODO:popup array & formatting
+      addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, 
+                 popup = paste("Range:"              , df.sbst()$Range        , "<br>",
+                               "Imperial/Metric:"    , df.sbst()$Type         , "<br>",
+                               "Maximum Distance:"   , df.sbst()$Max_Distance , "<br>",
+                               "No. of Targets:"     , df.sbst()$Num_Targets  , "<br>",
+                               "Electronic Targets:" , df.sbst()$ET_System    , "<br>",
+                               "Clubs:"              , df.sbst()$Clubs))
     
   })
-  
-  # TODO:renderTable?
   
 }) 
