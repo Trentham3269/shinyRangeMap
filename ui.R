@@ -5,8 +5,8 @@ shinyUI(
     # Apply free bootswatch theme
     theme = shinytheme("flatly"),
     
-    # # Include Google Analytics
-    # tags$head(includeScript("www/google-analytics.js")),
+    # Include Google Analytics
+    tags$head(includeScript("www/google-analytics.js")),
     
     h2(titlePanel("National Rifle Association of Australia")),
     h3(titlePanel("Range Locations")),
