@@ -47,7 +47,7 @@ shinyUI(
         
         p(paste("There are currently", nrow(df), "NRAA ranges mapped")),
                    
-        p(paste("This application was last updated on", format(Sys.Date(), "%d.%m.%Y")))
+        p("This application was last updated on 08.09.2017")
       
       ),
       
