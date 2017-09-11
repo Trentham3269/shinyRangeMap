@@ -1,10 +1,10 @@
 Range,Lat,Long,State,Type,Max_Distance,Num_Targets,Electronic,ET_System,Clubs
-Bathurst,-33.445541,149.544611,NSW,Imperial,900y,6,No,None,Bathurst
-Cessnock,-32.864497,151.350778,NSW,Imperial,900y,7,Yes,Kongsberg,"BHP, Cessnock, West Wallsend"
-Gosford,-33.455674,151.271125,NSW,Imperial/Metric,600m,7,Yes,Hexta,Gosford District
-Goulburn,-34.770336,149.745637,NSW,Imperial,900y,NA,Yes,OzScore,Goulburn
+Bathurst,-33.445541,149.544611,NSW,Imperial,900y,6,No,None,<a href="http://www.bathurstrifleclub.org.au">Bathurst</a>
+Cessnock,-32.864497,151.350778,NSW,Imperial,900y,7,Yes,Kongsberg,"<a href="http://bhprifleclub.com.au">BHP</a>, <a href="http://cessnockrifleclub.org.au">Cessnock</a>, <a href="http://wwrc.net.au">West Wallsend</a>"
+Gosford,-33.455674,151.271125,NSW,Imperial/Metric,600m,7,Yes,Hexta,<a href="http://gdrc.centralcoastsports.com.au">Gosford District</a>
+Goulburn,-34.770336,149.745637,NSW,Imperial,900y,NA,Yes,OzScore,<a href="http://www.goulburnrifleclub.com">Goulburn</a>
 Hornsby,-33.68712,151.084996,NSW,Metric,800m,14,Yes,Hexta,"Hornsby, Hornsby RSL, Manly, Roseville"
-Katoomba,-33.709724,150.342206,NSW,Imperial/Metric,600m,4,Yes,Silver Mountain,Katoomba
+Katoomba,-33.709724,150.342206,NSW,Imperial/Metric,600m,4,Yes,Silver Mountain,<a href="http://www.katoombarifleclub.com">Katoomba</a>
 Malabar,-33.958751,151.260098,NSW,Metric,800m,30,Yes,Mixed,"Concord, Holsworthy, Port Jackson, Mosman Neutral Bay, Sydney, Yorkshire"
 Spring Ridge,-31.417,150.262947,NSW,Imperial,900y,6,No,None,Spring Ridge
 Belmont,-27.513646,153.131253,QLD,Imperial,1000y,50,Yes,Hexta,"Brisbane, Brisbane Mariners, Central, Gold Coast, Pacific, Natives, University of Qld"
@@ -15,11 +15,11 @@ North Arm,-26.525591,152.974641,QLD,Imperial,700y,NA,Yes,Kongsberg,North Arm
 Raglan,-23.722441,150.810624,QLD,Metric,1100m,NA,NA,NA,NA
 Wondai,-26.334474,151.889558,QLD,Imperial,1000y,NA,NA,NA,Wondai
 Bendigo,-36.749823,144.33791,VIC,Imperial,1000y,30,No,None,"Bendigo, Central Victoria, Marong, South Bendigo, Victorian Police"
-Lithgow,-33.500826000000004,150.145599,NSW,Imperial,900y,8,No,None,Lithgow
-Lyndhurst,-33.681472,149.048683,NSW,Imperial,700y,5,Yes,Kongsberg,Lyndhurst
+Lithgow,-33.500826000000004,150.145599,NSW,Imperial,900y,8,No,None,<a href="https://www.facebook.com/Lithgow-Small-Arms-Rifle-Club-617629108377297">Lithgow-Small Arms</a>
+Lyndhurst,-33.681472,149.048683,NSW,Imperial,700y,5,Yes,Kongsberg,<a href="https://www.facebook.com/LyndhurstRC">Lyndhurst</a>
 Canberra,-35.219593,149.200678,ACT,Metric,900m,20,Yes,Kongsberg,"Bungendore, Canberra"
-Townsville,-19.359482,146.496696,QLD,Metric,900m,NA,NA,NA,Townsville Marksmen
-Wingham,-31.847171,152.36806,NSW,Imperial/Metric,1000y,12,Yes,Hexta,Wingham
+Townsville,-19.359482,146.496696,QLD,Metric,900m,NA,NA,NA,<a href="http://tmrc.com.au">Townsville Marksmen</a>
+Wingham,-31.847171,152.36806,NSW,Imperial/Metric,1000y,12,Yes,Hexta,<a href="https://winghamrifleclub.com">Wingham</a>
 Campbell Town,-41.944709,147.484742,TAS,Imperial,1200y,NA,No,None,Campbell Town
 Sandford,-42.943906,147.484199,TAS,NA,NA,NA,NA,NA,Sandford
 Smithton,-40.852343,145.142564,TAS,NA,NA,NA,NA,NA,Smithton
@@ -68,3 +68,13 @@ Warrnambool,-38.433287,142.589568,VIC,Imperial,1000y,20,No,None,Warrnambool
 Dunkeld,-37.612158,142.32949,VIC,NA,NA,NA,NA,NA,Dunkeld/Willaura
 Hamilton,-37.761115,142.031614,VIC,Imperial,900y,2,Yes,Hexta,Hamilton
 Grantville,-38.429892,145.512167,VIC,Imperial,600y,5,No,None,"Fitzroy/Caulfield, MCC"
+Cooma,-36.24390,149.14305,NSW,NA,NA,NA,NA,NA,<a href="https://www.facebook.com/CoomaRifleClub.com.au">Cooma</a>
+Coonabarabran,-31.4078,149.4755,NSW,Imperial/Metric,1500y,NA,NA,NA,<a href="https://www.facebook.com/CoonabarabranRifleClub">Coonabarabran</a>
+Cootamundra,-34.65745,148.01285,NSW,NA,NA,NA,NA,NA,<a href="http://www.tumutrifleclub.org.au/">Tumut</a>
+Grafton,-29.61278,152.95207,NSW,NA,NA,NA,NA,NA,<a href="https://www.facebook.com/graftonrifleclub">Grafton</a>
+Junee,-34.89029,147.59505,NSW,NA,NA,NA,NA,NA,Junee Ex-Services
+Murwillumbah,-28.36551,153.37842,NSW,NA,NA,NA,NA,NA,<a href="https://www.murwillumbahrifleclub.com.au">Murwillumbah</a>
+Narromine-Dubbo,-32.25326,148.32935,NSW,NA,NA,NA,NA,NA,<a href="https://www.facebook.com/Narromine-Dubbo-Rifle-Club-Inc-304697259740028/">Narromine-Dubbo</a>
+Nowra,-34.92811,150.61675,NSW,Metric,800m,4,Yes,OzScore,<a href="http://www.nowrarifleclub.com.au/">Nowra</a>
+Ungarie,-33.64271,147.00122,NSW,NA,NA,NA,NA,NA,Ungarie
+Warialda,-29.52115,150.55580,NSW,NA,NA,NA,NA,NA,Warialda-Rocky Dam

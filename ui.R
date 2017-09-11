@@ -38,7 +38,7 @@ shinyUI(
           selectInput(inputId   = "distance" 
                       , label   = "Choose maximum distance:"
                       , choices = c("600y", "600m", "700y", "800y", "800m", "900y", "900m", "1000y"
-                                    , "1000m", "1100m", "1200y"))),
+                                    , "1000m", "1100m", "1200y", "1500y"))),
               
         conditionalPanel(condition = "input.filter == 'Electronic Targets'",
           selectInput(inputId   = "etargets" 
@@ -47,7 +47,7 @@ shinyUI(
         
         p(paste("There are currently", nrow(df), "NRAA ranges mapped")),
                    
-        p("This application was last updated on 09.09.2017")
+        p("This application was last updated on 11.09.2017")
       
       ),
       
