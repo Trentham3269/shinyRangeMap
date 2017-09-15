@@ -43,11 +43,16 @@ shinyUI(
         conditionalPanel(condition = "input.filter == 'Electronic Targets'",
           selectInput(inputId   = "etargets" 
                       , label   = "Choose electronic targets:"
-                      , choices = levels(factor(df$ET_System)))), 
+                      , choices = levels(factor(df$ET_System)))),
+        
+        radioButtons(inputId   = "marker"
+                     , label   = "Choose marker type:"
+                     , choices = c("Clusters", "Individual")
+                     , inline  = TRUE),
         
         p(paste("There are currently", nrow(df), "NRAA ranges mapped")),
                    
-        p("This application was last updated on 11.09.2017"),
+        p("This application was last updated on 15.09.2017"),
         
         a(href="https://trentham3269.shinyapps.io/shinyhonourboard/", "NRAA Honour Board")
       

@@ -2,6 +2,7 @@ shinyServer(function(input, output) {
   
   # DATA -------------------------------------------------------------------------------------------
   
+  # Subset dataframe
   df.sbst <- reactive({
     
     switch(input$filter
@@ -15,11 +16,21 @@ shinyServer(function(input, output) {
   
   # MAP -------------------------------------------------------------------------------------------
 
+  # Define marker type
+  clstr <- reactive({
+    
+    switch(input$marker
+           , "Clusters" = markerClusterOptions()
+           , "Individual" = NULL)
+    
+  })
+  
+  # Output leaflet map
   output$map <- renderLeaflet({
     
     leaflet() %>% 
       addTiles() %>% 
-      addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, 
+      addMarkers(lng = df.sbst()$Long, lat = df.sbst()$Lat, clusterOptions = clstr(),
                  popup = paste("Range:"              , df.sbst()$Range        , "<br>",
                                "Imperial/Metric:"    , df.sbst()$Type         , "<br>",
                                "Maximum Distance:"   , df.sbst()$Max_Distance , "<br>",
