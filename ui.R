@@ -47,7 +47,9 @@ shinyUI(
         
         p(paste("There are currently", nrow(df), "NRAA ranges mapped")),
                    
-        p("This application was last updated on 11.09.2017")
+        p("This application was last updated on 11.09.2017"),
+        
+        a(href="https://trentham3269.shinyapps.io/shinyhonourboard/", "NRAA Honour Board")
       
       ),
       
