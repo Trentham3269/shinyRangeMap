@@ -1,6 +1,6 @@
 Range,Lat,Long,State,Type,Max_Distance,Num_Targets,Electronic,ET_System,Clubs
 Bathurst,-33.445541,149.544611,NSW,Imperial,900y,6,No,None,<a href="http://www.bathurstrifleclub.org.au">Bathurst</a>
-Cessnock,-32.864497,151.350778,NSW,Imperial,900y,7,Yes,Kongsberg,"<a href="http://bhprifleclub.com.au">BHP</a>, <a href="http://cessnockrifleclub.org.au">Cessnock</a>, <a href="http://wwrc.net.au">West Wallsend</a>"
+Cessnock,-32.864497,151.350778,NSW,Imperial,900y,7,Yes,Hexta,"<a href="http://bhprifleclub.com.au">BHP</a>, <a href="http://cessnockrifleclub.org.au">Cessnock</a>, <a href="http://wwrc.net.au">West Wallsend</a>"
 Gosford,-33.455674,151.271125,NSW,Imperial/Metric,600m,7,Yes,Hexta,<a href="http://gdrc.centralcoastsports.com.au">Gosford District</a>
 Goulburn,-34.770336,149.745637,NSW,Imperial,900y,NA,Yes,OzScore,<a href="http://www.goulburnrifleclub.com">Goulburn</a>
 Hornsby,-33.68712,151.084996,NSW,Metric,800m,14,Yes,Hexta,"Hornsby, Hornsby RSL, Manly, Roseville"
@@ -37,11 +37,11 @@ Whyalla,-33.049234,137.549358,SA,Imperial,900y,NA,NA,NA,Whyalla
 Albany,-35.060454,117.838481,WA,Metric,800m,20,NA,NA,Albany
 Chapman Valley,-28.508832,114.818389,WA,NA,NA,3,NA,NA,Chapman Valley
 Chidlow,-31.891249,116.263194,WA,NA,NA,NA,NA,NA,NA
-Coolilup,-33.594234,115.521203,WA,Metric,900m,NA,NA,NA,Busselton
+Coolilup,-33.594234,115.521203,WA,Metric,900m,12,Yes,Kongsberg,"Bunbury, Busselton"
 Geraldton Greenough,-28.959219,114.732446,WA,Imperial/Metric,900y,10,NA,NA,Geraldton Greenough
 Meekatharra,-26.57619,118.488107,WA,Imperial,900y,NA,NA,NA,Meekatharra
 Wurgabup,-33.568009000000004,117.915123,WA,NA,NA,NA,NA,NA,Wurgabup
-Yarloop,-32.956219,115.921104,WA,Metric,NA,10,NA,NA,"Mandurah, Yarloop"
+Yarloop,-32.956219,115.921104,WA,Metric,600m,4,Yes,Kongsberg,"Mandurah, Yarloop"
 Darwin,-12.396858,130.94377,NT,Metric,1000m,30,NA,NA,Darwin
 Alice Springs,-23.776589,133.82236,NT,Metric,1000m,NA,NA,NA,Central Australia
 Glenrowan,-36.47266,146.223441,VIC,NA,NA,NA,NA,NA,Wangaratta
@@ -78,3 +78,4 @@ Narromine-Dubbo,-32.25326,148.32935,NSW,NA,NA,NA,NA,NA,<a href="https://www.face
 Nowra,-34.92811,150.61675,NSW,Metric,800m,4,Yes,OzScore,<a href="http://www.nowrarifleclub.com.au/">Nowra</a>
 Ungarie,-33.64271,147.00122,NSW,NA,NA,NA,NA,NA,Ungarie
 Warialda,-29.52115,150.55580,NSW,NA,NA,NA,NA,NA,Warialda-Rocky Dam
+Pinjar,-31.63702,115.86905,WA,Metric,900m,24,Yes,Kongsberg,<a href="https://wara.asn.au/">WARA</a>
